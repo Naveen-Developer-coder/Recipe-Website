@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.container{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#searchInput{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#results{
+  list-style: none;
+  padding: 0;
+}
+
+.recipe{
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.recipe img{
+  max-width:  100%;
+  height: auto;
+  border-radius: 5px;
+}
